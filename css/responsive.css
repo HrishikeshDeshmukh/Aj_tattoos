@@ -1,0 +1,140 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .carousel-indicators {
+    margin-top: 45px;
+  }
+  
+  .content-table {
+    left: 0;
+  }
+ 
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .slider_section .detail-box,
+  .about_section .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+
+  .footer_section .footer_form {
+    margin-bottom: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav {
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .about_section .img-box img {
+    padding-bottom: 10px;
+  }
+
+  .gallery{
+    display: block;
+    max-width: 90vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 12px;
+    height: 100%;
+    gap: 0;
+    margin-left:12px;
+  }
+
+  .card4 {
+    width: 60vw;
+    /* margin-right: 20px; */
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .card4:hover {
+    transform: scale(1.0);
+  
+  }
+
+  .card4:hover ~ .card4 {
+   
+    transform: translateX(0);
+  }
+
+
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 3rem;
+  }
+  .card4 {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.content-table {
+  left: 0;
+}
+
+}
+
+
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width:300px) {
+  .content-table {
+    left: 0;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    display: none;
+    
+  }
+  #chart {
+    display: none;
+  }
+}
